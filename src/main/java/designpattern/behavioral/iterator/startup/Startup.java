@@ -1,5 +1,6 @@
 package designpattern.behavioral.iterator.startup;
 
+import designpattern.behavioral.iterator.Container;
 import designpattern.behavioral.iterator.Iterator;
 import designpattern.behavioral.iterator.impl.NameRepository;
 
@@ -8,7 +9,7 @@ import designpattern.behavioral.iterator.impl.NameRepository;
  */
 public class Startup {
     public static void main(String[] args) {
-        NameRepository namesRepository = new NameRepository();
+        Container namesRepository = new NameRepository();
 
         for (Iterator iter = namesRepository.getIterator(); iter.hasNext(); ) {
             String name = (String) iter.next();

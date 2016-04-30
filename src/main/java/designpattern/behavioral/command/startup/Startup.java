@@ -1,5 +1,6 @@
 package designpattern.behavioral.command.startup;
 
+import designpattern.behavioral.command.Order;
 import designpattern.behavioral.command.impl.Broker;
 import designpattern.behavioral.command.impl.BuyStock;
 import designpattern.behavioral.command.impl.SellStock;
@@ -11,8 +12,8 @@ import designpattern.behavioral.command.impl.Stock;
 public class Startup {
     public static void main(String[] args) {
         Stock abcStock = new Stock();
-        BuyStock buyStockOrder = new BuyStock(abcStock);
-        SellStock sellStockOrder = new SellStock(abcStock);
+        Order buyStockOrder = new BuyStock(abcStock);
+        Order sellStockOrder = new SellStock(abcStock);
 
         Broker broker = new Broker();
         broker.takeOrder(buyStockOrder);

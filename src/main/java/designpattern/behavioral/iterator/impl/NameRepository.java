@@ -7,7 +7,7 @@ import designpattern.behavioral.iterator.Iterator;
  * Created by kimi on 4/27/16.
  */
 public class NameRepository implements Container {
-    public String names[] = {"Robert", "John", "Julie", "Lora"};
+    public String names[] = {"Robert", "John", "Julie", "Lora", "Hello", "World", "Kimi"};
 
     @Override
     public Iterator getIterator() {

@@ -12,6 +12,9 @@ public class ShapeCache {
 
     public static Shape getShape(String shapeId) {
         Shape cachedShape = shapeMap.get(shapeId);
+        if (null == cachedShape) {
+            return null;
+        }
         return (Shape) cachedShape.clone();
     }
 

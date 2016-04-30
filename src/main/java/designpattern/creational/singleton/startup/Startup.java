@@ -14,7 +14,9 @@ public class Startup {
 
         //Get the only object available
         SingleObject object = SingleObject.getInstance();
-
+        SingleObject object1 = SingleObject.getInstance();
+        System.out.println(object.equals(object1));
+        System.out.println(object == object1);
         //show the message
         object.showMessage();
     }
