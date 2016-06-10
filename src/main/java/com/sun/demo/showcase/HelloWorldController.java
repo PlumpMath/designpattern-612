@@ -1,14 +1,10 @@
 package com.sun.demo.showcase;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.servlet.config.annotation.CorsRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -17,6 +13,7 @@ import java.util.concurrent.atomic.AtomicLong;
  */
 
 @Controller
+@RequestMapping("/hello-world")
 public class HelloWorldController {
     private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
@@ -28,6 +25,7 @@ public class HelloWorldController {
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
     }
 
+    /*
     @Bean
     public WebMvcConfigurer corsConfigurer() {
         return new WebMvcConfigurerAdapter() {
@@ -36,5 +34,5 @@ public class HelloWorldController {
                 registry.addMapping("/hello").allowedOrigins("http://localhost:8828");
             }
         };
-    }
+    }*/
 }
