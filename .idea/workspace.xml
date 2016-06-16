@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0212ad3-3fa3-4b02-a134-1130a93c12fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rest/io/spring/bookmarks/Account.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rest/io/spring/bookmarks/AccountRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rest/io/spring/bookmarks/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rest/io/spring/bookmarks/Bookmark.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rest/io/spring/bookmarks/BookmarkRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
     </list>
     <ignored path="designpattern.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -939,7 +932,7 @@
       <workItem from="1465555416142" duration="1879000" />
       <workItem from="1465559480515" duration="327000" />
       <workItem from="1465561471016" duration="276000" />
-      <workItem from="1465609028445" duration="891000" />
+      <workItem from="1465609028445" duration="924000" />
     </task>
     <task id="LOCAL-00001" summary="modify jdk version">
       <created>1461995005620</created>
@@ -971,7 +964,13 @@
       <option name="project" value="LOCAL" />
       <updated>1465549635135</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add new class for spring">
+      <created>1465609931358</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1465609931358</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -980,7 +979,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56486000" />
+    <option name="totallyTimeSpent" value="56519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="24" width="1426" height="862" extended-state="0" />
